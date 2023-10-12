@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang=" en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Kamanzi Babu Porfolio Website</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/cca27188b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+    <img src="images/logo.png" class="logo" alt="logo pic">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Contact Me</a></li>
+
+
+</ul>
+</nav>
+<div class="header-text">
+    <p>
+        Digital Creator
+    </p>
+
+   
+    <h1>
+        Hi, I'm <span>Babu</span><br>Kamanzi <br> Rwanda
+    </h1>
+</div>
+</div>
+
+    </div>
+    <!---------about------>
+    <div class="about">
+        <div id="container">
+        <div class="row">
+            <div class="about-col-1">
+            <img src="images/user.png" alt="noice">
+            </div>
+            <div class="about-col-2">
+            
+                <h1>
+                 <h1 class="sub-title">  About Me
+                </h1>
+                <p>
+                    I'm a passionate digital creator with a flair for turning ideas into captivating online experiences. Whether it's crafting engaging videos, designing eye-catching graphics, or developing interactive websites, I thrive on bringing creativity to life in the digital realm. With a strong foundation in multimedia production and a keen eye for aesthetics, I'm dedicated to delivering content that resonates with audiences and leaves a lasting impact. I'm constantly exploring new trends and technologies to stay at the forefront of the digital landscape, and I can't wait to share my next exciting project with you!
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+<li> <span>Digital Designer</span><br>Content Creator</li>
+<li> <span>Social Media Manager</span><br>Photographer</li>
+<li> <span>Gamer</span><br>Streamer</li>
+
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+<li> <span>2021-Current</span><br>Content Creator</li>
+<li> <span>2019-2021</span><br>Photographer</li>
+<li> <span>2016-2017</span><br>Streamer</li>
+
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+<li> <span>2017</span><br>KSS</li>
+<li> <span>2016</span><br>Photographer</li>
+<li> <span>2016-2017</span><br>Streamer</li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!--------services------------>
+<div id="Services">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+    <div>
+        <i class="fa-brands fa-slack"></i>
+        <h2>Content Creator</h2>
+        <p> offer high-quality content creation services for your web portfolio. I create engaging and tailored content, including blog posts, articles, website copy, and social media content, to enhance your online presence and connect with your audience effectively. Let's elevate your web portfolio with captivating content. </p>
+    <a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i>
+        <h2>Photography</h2>
+        <p> offer high-quality content creation services for your web portfolio. I create engaging and tailored content, including blog posts, articles, website copy, and social media content, to enhance your online presence and connect with your audience effectively. Let's elevate your web portfolio with captivating content. </p>
+    <a href="#">Learn More</a>
+    </div>
+    <div>
+        <i class="fa-brands fa-algolia"></i>
+        <h2>Social Media Management</h2>
+        <p> offer high-quality content creation services for your web portfolio. I create engaging and tailored content, including blog posts, articles, website copy, and social media content, to enhance your online presence and connect with your audience effectively. Let's elevate your web portfolio with captivating content. </p>
+    <a href="#">Learn More</a>
+    </div>
+</div>
+
+</div>
+
+<!--------------porfolio----------->
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+       <div class="work">
+        <img src = "images/work-1.png" alt = "Nice">
+        <div class="layer">
+
+            <h3>Social Media App</h3>
+               <p>noiccccccccccccceeeeeeeeee</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+            
+        </div>
+       </div>
+       <div class="work">
+        <img src = "images/work-2.png" alt = "Nice">
+        <h3>Social Media App</h3>
+        <p>noiccccccccccccceeeeeeeeee</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+       </div>
+       <div class="work">
+        <img src = "images/work-3.png" alt = "Nice">
+        <h3>Social Media App</h3>
+            <p>noiccccccccccccceeeeeeeeee</p>
+
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+       </div>
+
+
+    </div>
+</div>
+</div>
+
+    <script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link")
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab")
+}
+event.currentTarget.classList.add("active-link")
+document.getElementById(tabname).classList.add("active-tab")
+}
+
+    </script>
+</body>
+</html>
