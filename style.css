@@ -6,14 +6,14 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 box-sizing: border-box;
 }
 body{
-background: #7a4231; /*changed background color*/
+background: #235018; /*changed background color*/
 color: rgb(8, 6, 6);
 
 }
 #header{
     width: 100%;
-    height: 100vh;
-    background-image: url(images/nice.jpeg) ;
+    height: 70vh;
+    background-image: url(images/new\ logo.jpg) ;
     background-size:cover;
     background-position: center;
 }
@@ -107,7 +107,7 @@ position: relative;
     content:'';
     width:0;
     height: 3px;
-    background:#7a4231;
+    background:#010302;
     position:absolute;
     left: 0;
     bottom: -8px;
@@ -166,7 +166,7 @@ margin-top: 20px;
 display: inline-block;
 }
 .services-list div:hover{
-background:#7a4231;
+background:#235018;
 transform: translate(-10px)
 }
 /* --------------profolio---*/
@@ -244,6 +244,6 @@ margin-bottom: 20px;
 }
 /* changed the color to a more aesthetic look*/
 .btn:hover{
-    background: #921f43;
+    background: #0f0508;
 
 }
